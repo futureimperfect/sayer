@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADACD181981C11300E62FF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADACD171981C11300E62FF5 /* Cocoa.framework */; };
+		1ADACD221981C11300E62FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD201981C11300E62FF5 /* InfoPlist.strings */; };
+		1ADACD241981C11300E62FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD231981C11300E62FF5 /* main.m */; };
+		1ADACD281981C11300E62FF5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD261981C11300E62FF5 /* Credits.rtf */; };
+		1ADACD2B1981C11300E62FF5 /* EIGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD2A1981C11300E62FF5 /* EIGAppDelegate.m */; };
+		1ADACD2E1981C11300E62FF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD2C1981C11300E62FF5 /* MainMenu.xib */; };
+		1ADACD301981C11300E62FF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD2F1981C11300E62FF5 /* Images.xcassets */; };
+		1ADACD371981C11400E62FF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADACD361981C11400E62FF5 /* XCTest.framework */; };
+		1ADACD381981C11400E62FF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADACD171981C11300E62FF5 /* Cocoa.framework */; };
+		1ADACD401981C11400E62FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD3E1981C11400E62FF5 /* InfoPlist.strings */; };
+		1ADACD421981C11400E62FF5 /* SayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD411981C11400E62FF5 /* SayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADACD391981C11400E62FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADACD0C1981C11300E62FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADACD131981C11300E62FF5;
+			remoteInfo = Sayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADACD141981C11300E62FF5 /* Sayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADACD171981C11300E62FF5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1ADACD1A1981C11300E62FF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1ADACD1B1981C11300E62FF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1ADACD1C1981C11300E62FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ADACD1F1981C11300E62FF5 /* Sayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sayer-Info.plist"; sourceTree = "<group>"; };
+		1ADACD211981C11300E62FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADACD231981C11300E62FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ADACD251981C11300E62FF5 /* Sayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sayer-Prefix.pch"; sourceTree = "<group>"; };
+		1ADACD271981C11300E62FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1ADACD291981C11300E62FF5 /* EIGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGAppDelegate.h; sourceTree = "<group>"; };
+		1ADACD2A1981C11300E62FF5 /* EIGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGAppDelegate.m; sourceTree = "<group>"; };
+		1ADACD2D1981C11300E62FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1ADACD2F1981C11300E62FF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1ADACD351981C11400E62FF5 /* SayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADACD361981C11400E62FF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1ADACD3D1981C11400E62FF5 /* SayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SayerTests-Info.plist"; sourceTree = "<group>"; };
+		1ADACD3F1981C11400E62FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADACD411981C11400E62FF5 /* SayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADACD111981C11300E62FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD181981C11300E62FF5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADACD321981C11400E62FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD381981C11400E62FF5 /* Cocoa.framework in Frameworks */,
+				1ADACD371981C11400E62FF5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADACD0B1981C11300E62FF5 = {
+			isa = PBXGroup;
+			children = (
+				1ADACD1D1981C11300E62FF5 /* Sayer */,
+				1ADACD3B1981C11400E62FF5 /* SayerTests */,
+				1ADACD161981C11300E62FF5 /* Frameworks */,
+				1ADACD151981C11300E62FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADACD151981C11300E62FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD141981C11300E62FF5 /* Sayer.app */,
+				1ADACD351981C11400E62FF5 /* SayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADACD161981C11300E62FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD171981C11300E62FF5 /* Cocoa.framework */,
+				1ADACD361981C11400E62FF5 /* XCTest.framework */,
+				1ADACD191981C11300E62FF5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADACD191981C11300E62FF5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD1A1981C11300E62FF5 /* AppKit.framework */,
+				1ADACD1B1981C11300E62FF5 /* CoreData.framework */,
+				1ADACD1C1981C11300E62FF5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1ADACD1D1981C11300E62FF5 /* Sayer */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD291981C11300E62FF5 /* EIGAppDelegate.h */,
+				1ADACD2A1981C11300E62FF5 /* EIGAppDelegate.m */,
+				1ADACD2C1981C11300E62FF5 /* MainMenu.xib */,
+				1ADACD2F1981C11300E62FF5 /* Images.xcassets */,
+				1ADACD1E1981C11300E62FF5 /* Supporting Files */,
+			);
+			path = Sayer;
+			sourceTree = "<group>";
+		};
+		1ADACD1E1981C11300E62FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD1F1981C11300E62FF5 /* Sayer-Info.plist */,
+				1ADACD201981C11300E62FF5 /* InfoPlist.strings */,
+				1ADACD231981C11300E62FF5 /* main.m */,
+				1ADACD251981C11300E62FF5 /* Sayer-Prefix.pch */,
+				1ADACD261981C11300E62FF5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADACD3B1981C11400E62FF5 /* SayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD411981C11400E62FF5 /* SayerTests.m */,
+				1ADACD3C1981C11400E62FF5 /* Supporting Files */,
+			);
+			path = SayerTests;
+			sourceTree = "<group>";
+		};
+		1ADACD3C1981C11400E62FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADACD3D1981C11400E62FF5 /* SayerTests-Info.plist */,
+				1ADACD3E1981C11400E62FF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADACD131981C11300E62FF5 /* Sayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADACD451981C11400E62FF5 /* Build configuration list for PBXNativeTarget "Sayer" */;
+			buildPhases = (
+				1ADACD101981C11300E62FF5 /* Sources */,
+				1ADACD111981C11300E62FF5 /* Frameworks */,
+				1ADACD121981C11300E62FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sayer;
+			productName = Sayer;
+			productReference = 1ADACD141981C11300E62FF5 /* Sayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADACD341981C11400E62FF5 /* SayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADACD481981C11400E62FF5 /* Build configuration list for PBXNativeTarget "SayerTests" */;
+			buildPhases = (
+				1ADACD311981C11400E62FF5 /* Sources */,
+				1ADACD321981C11400E62FF5 /* Frameworks */,
+				1ADACD331981C11400E62FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADACD3A1981C11400E62FF5 /* PBXTargetDependency */,
+			);
+			name = SayerTests;
+			productName = SayerTests;
+			productReference = 1ADACD351981C11400E62FF5 /* SayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADACD0C1981C11300E62FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EIG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Everything is Gray";
+				TargetAttributes = {
+					1ADACD341981C11400E62FF5 = {
+						TestTargetID = 1ADACD131981C11300E62FF5;
+					};
+				};
+			};
+			buildConfigurationList = 1ADACD0F1981C11300E62FF5 /* Build configuration list for PBXProject "Sayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADACD0B1981C11300E62FF5;
+			productRefGroup = 1ADACD151981C11300E62FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADACD131981C11300E62FF5 /* Sayer */,
+				1ADACD341981C11400E62FF5 /* SayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADACD121981C11300E62FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD221981C11300E62FF5 /* InfoPlist.strings in Resources */,
+				1ADACD301981C11300E62FF5 /* Images.xcassets in Resources */,
+				1ADACD281981C11300E62FF5 /* Credits.rtf in Resources */,
+				1ADACD2E1981C11300E62FF5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADACD331981C11400E62FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD401981C11400E62FF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADACD101981C11300E62FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD2B1981C11300E62FF5 /* EIGAppDelegate.m in Sources */,
+				1ADACD241981C11300E62FF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADACD311981C11400E62FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADACD421981C11400E62FF5 /* SayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADACD3A1981C11400E62FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADACD131981C11300E62FF5 /* Sayer */;
+			targetProxy = 1ADACD391981C11400E62FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADACD201981C11300E62FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADACD211981C11300E62FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ADACD261981C11300E62FF5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADACD271981C11300E62FF5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1ADACD2C1981C11300E62FF5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADACD2D1981C11300E62FF5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1ADACD3E1981C11400E62FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADACD3F1981C11400E62FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADACD431981C11400E62FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1ADACD441981C11400E62FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1ADACD461981C11400E62FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayer/Sayer-Prefix.pch";
+				INFOPLIST_FILE = "Sayer/Sayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ADACD471981C11400E62FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayer/Sayer-Prefix.pch";
+				INFOPLIST_FILE = "Sayer/Sayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1ADACD491981C11400E62FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sayer.app/Contents/MacOS/Sayer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayer/Sayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SayerTests/SayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1ADACD4A1981C11400E62FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sayer.app/Contents/MacOS/Sayer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayer/Sayer-Prefix.pch";
+				INFOPLIST_FILE = "SayerTests/SayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADACD0F1981C11300E62FF5 /* Build configuration list for PBXProject "Sayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADACD431981C11400E62FF5 /* Debug */,
+				1ADACD441981C11400E62FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADACD451981C11400E62FF5 /* Build configuration list for PBXNativeTarget "Sayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADACD461981C11400E62FF5 /* Debug */,
+				1ADACD471981C11400E62FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1ADACD481981C11400E62FF5 /* Build configuration list for PBXNativeTarget "SayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADACD491981C11400E62FF5 /* Debug */,
+				1ADACD4A1981C11400E62FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADACD0C1981C11300E62FF5 /* Project object */;
+}
