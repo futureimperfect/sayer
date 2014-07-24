@@ -12,4 +12,11 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+// Text fields
+@property (weak) IBOutlet NSTextField *sayTextArea;
+
+// IBActions
+- (IBAction)say:(id)sender;
+- (IBAction)sayInReverse:(id)sender;
+
 @end

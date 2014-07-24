@@ -7,12 +7,26 @@
 //
 
 #import "EIGAppDelegate.h"
+#import "EIGSayer.h"
 
 @implementation EIGAppDelegate
+
+@synthesize sayTextArea;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (IBAction)say:(id)sender
+{
+    EIGSayer *sayer = [[EIGSayer alloc] init];
+    [sayer say:[sayTextArea stringValue]];
+}
+
+- (IBAction)sayInReverse:(id)sender
+{
+    // Let's reverse the string here to make it sound like the devil
 }
 
 @end

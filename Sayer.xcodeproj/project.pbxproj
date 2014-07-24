@@ -18,6 +18,7 @@
 		1ADACD381981C11400E62FF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADACD171981C11300E62FF5 /* Cocoa.framework */; };
 		1ADACD401981C11400E62FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD3E1981C11400E62FF5 /* InfoPlist.strings */; };
 		1ADACD421981C11400E62FF5 /* SayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD411981C11400E62FF5 /* SayerTests.m */; };
+		1ADACD4D1981C2E300E62FF5 /* EIGSayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD4C1981C2E300E62FF5 /* EIGSayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		1ADACD3D1981C11400E62FF5 /* SayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SayerTests-Info.plist"; sourceTree = "<group>"; };
 		1ADACD3F1981C11400E62FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1ADACD411981C11400E62FF5 /* SayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayerTests.m; sourceTree = "<group>"; };
+		1ADACD4B1981C2E300E62FF5 /* EIGSayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIGSayer.h; sourceTree = "<group>"; };
+		1ADACD4C1981C2E300E62FF5 /* EIGSayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIGSayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				1ADACD291981C11300E62FF5 /* EIGAppDelegate.h */,
 				1ADACD2A1981C11300E62FF5 /* EIGAppDelegate.m */,
+				1ADACD4B1981C2E300E62FF5 /* EIGSayer.h */,
+				1ADACD4C1981C2E300E62FF5 /* EIGSayer.m */,
 				1ADACD2C1981C11300E62FF5 /* MainMenu.xib */,
 				1ADACD2F1981C11300E62FF5 /* Images.xcassets */,
 				1ADACD1E1981C11300E62FF5 /* Supporting Files */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ADACD2B1981C11300E62FF5 /* EIGAppDelegate.m in Sources */,
+				1ADACD4D1981C2E300E62FF5 /* EIGSayer.m in Sources */,
 				1ADACD241981C11300E62FF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
