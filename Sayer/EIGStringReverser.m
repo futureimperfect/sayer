@@ -10,4 +10,18 @@
 
 @implementation EIGStringReverser
 
+- (NSString *)reverse:(NSString *)aString
+{
+    NSMutableString *mutableString = [NSMutableString string];
+    NSInteger characterIndex = [aString length];
+
+    while (characterIndex > 0) {
+        characterIndex --;
+        NSRange subStringRange = NSMakeRange(characterIndex, 1);
+        [mutableString appendString:[aString substringWithRange:subStringRange]];
+    }
+
+    return [NSString stringWithString:mutableString];
+}
+
 @end

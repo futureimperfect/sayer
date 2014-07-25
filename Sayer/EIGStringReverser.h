@@ -10,4 +10,6 @@
 
 @interface EIGStringReverser : NSObject
 
+- (NSString *)reverse:(NSString *)aString;
+
 @end

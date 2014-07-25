@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A63178519823FA600F1CF86 /* EIGStringReverser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A63178419823FA600F1CF86 /* EIGStringReverser.m */; };
 		1ADACD181981C11300E62FF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADACD171981C11300E62FF5 /* Cocoa.framework */; };
 		1ADACD221981C11300E62FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADACD201981C11300E62FF5 /* InfoPlist.strings */; };
 		1ADACD241981C11300E62FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADACD231981C11300E62FF5 /* main.m */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A63178319823FA600F1CF86 /* EIGStringReverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIGStringReverser.h; sourceTree = "<group>"; };
+		1A63178419823FA600F1CF86 /* EIGStringReverser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIGStringReverser.m; sourceTree = "<group>"; };
 		1ADACD141981C11300E62FF5 /* Sayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADACD171981C11300E62FF5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1ADACD1A1981C11300E62FF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				1ADACD2A1981C11300E62FF5 /* EIGAppDelegate.m */,
 				1ADACD4B1981C2E300E62FF5 /* EIGSayer.h */,
 				1ADACD4C1981C2E300E62FF5 /* EIGSayer.m */,
+				1A63178319823FA600F1CF86 /* EIGStringReverser.h */,
+				1A63178419823FA600F1CF86 /* EIGStringReverser.m */,
 				1ADACD2C1981C11300E62FF5 /* MainMenu.xib */,
 				1ADACD2F1981C11300E62FF5 /* Images.xcassets */,
 				1ADACD1E1981C11300E62FF5 /* Supporting Files */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A63178519823FA600F1CF86 /* EIGStringReverser.m in Sources */,
 				1ADACD2B1981C11300E62FF5 /* EIGAppDelegate.m in Sources */,
 				1ADACD4D1981C2E300E62FF5 /* EIGSayer.m in Sources */,
 				1ADACD241981C11300E62FF5 /* main.m in Sources */,
@@ -473,6 +479,7 @@
 				1ADACD471981C11400E62FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ADACD481981C11400E62FF5 /* Build configuration list for PBXNativeTarget "SayerTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +488,7 @@
 				1ADACD4A1981C11400E62FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

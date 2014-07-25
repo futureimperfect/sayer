@@ -8,6 +8,7 @@
 
 #import "EIGAppDelegate.h"
 #import "EIGSayer.h"
+#import "EIGStringReverser.h"
 
 @implementation EIGAppDelegate
 
@@ -26,7 +27,11 @@
 
 - (IBAction)sayInReverse:(id)sender
 {
-    // Let's reverse the string here to make it sound like the devil
+    EIGSayer *sayer = [[EIGSayer alloc] init];
+    EIGStringReverser *stringReverser = [[EIGStringReverser alloc] init];
+
+    [sayer say:[stringReverser reverse:[sayTextArea stringValue]]];
+
 }
 
 @end

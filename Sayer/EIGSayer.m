@@ -23,7 +23,6 @@
     [sayTask setStandardOutput:sayPipe];
     [sayTask setArguments:args];
     [sayTask launch];
-    [sayTask waitUntilExit];
 }
 
 @end
