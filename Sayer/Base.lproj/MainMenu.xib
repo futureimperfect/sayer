@@ -13,8 +13,7 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="EIGAppDelegate">
             <connections>
-                <outlet property="sayInReverse" destination="NQy-H9-uft" id="bO7-jP-39Z"/>
-                <outlet property="sayTextArea" destination="4s9-Pg-fP8" id="OiE-WE-ykR"/>
+                <outlet property="sayTextView" destination="5Sl-bK-Lmj" id="yEp-3A-DWS"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -673,34 +672,23 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="210"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
+            <value key="minSize" type="size" width="480" height="210"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="210"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4s9-Pg-fP8">
-                        <rect key="frame" x="20" y="49" width="440" height="141"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="TGe-Jf-yon">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PwJ-qx-RQd">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PwJ-qx-RQd">
                         <rect key="frame" x="405" y="13" width="61" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Say" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bYh-QS-E5j">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
-                            <string key="keyEquivalent" base64-UTF8="YES">
-DQ
-</string>
                         </buttonCell>
                         <connections>
                             <action selector="say:" target="Voe-Tx-rLC" id="XPu-hO-XLi"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQy-H9-uft">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NQy-H9-uft">
                         <rect key="frame" x="276" y="13" width="129" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Say In Reverse" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="W2l-JX-F8t">
@@ -711,7 +699,46 @@ DQ
                             <action selector="sayInReverse:" target="Voe-Tx-rLC" id="uLn-PH-pk7"/>
                         </connections>
                     </button>
+                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gq6-aY-54t">
+                        <rect key="frame" x="20" y="61" width="440" height="129"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <clipView key="contentView" id="l9H-Sl-sP8">
+                            <rect key="frame" x="1" y="1" width="423" height="127"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="5Sl-bK-Lmj">
+                                    <rect key="frame" x="0.0" y="0.0" width="423" height="127"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="423" height="127"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                    <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="423" height="127"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="Wnu-kr-zOB">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="6cc-T1-IFY">
+                            <rect key="frame" x="424" y="1" width="15" height="127"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Gq6-aY-54t" secondAttribute="trailing" constant="20" symbolic="YES" id="1c0-tb-A4f"/>
+                    <constraint firstItem="Gq6-aY-54t" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" symbolic="YES" id="9mv-Oh-uiU"/>
+                    <constraint firstItem="Gq6-aY-54t" firstAttribute="trailing" secondItem="PwJ-qx-RQd" secondAttribute="trailing" id="CSC-Oj-2bQ"/>
+                    <constraint firstItem="PwJ-qx-RQd" firstAttribute="leading" secondItem="NQy-H9-uft" secondAttribute="trailing" constant="12" symbolic="YES" id="Tj7-Yf-5fc"/>
+                    <constraint firstAttribute="bottom" secondItem="NQy-H9-uft" secondAttribute="bottom" constant="20" symbolic="YES" id="eXT-bq-hi4"/>
+                    <constraint firstItem="NQy-H9-uft" firstAttribute="baseline" secondItem="PwJ-qx-RQd" secondAttribute="baseline" id="fzC-8X-3fy"/>
+                    <constraint firstItem="Gq6-aY-54t" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="qVK-se-IIX"/>
+                    <constraint firstItem="NQy-H9-uft" firstAttribute="top" secondItem="Gq6-aY-54t" secondAttribute="bottom" constant="20" symbolic="YES" id="sYf-rB-dpJ"/>
+                </constraints>
             </view>
         </window>
     </objects>

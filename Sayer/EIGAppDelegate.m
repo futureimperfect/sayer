@@ -12,7 +12,7 @@
 
 @implementation EIGAppDelegate
 
-@synthesize sayTextArea;
+@synthesize sayTextView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -22,7 +22,7 @@
 - (IBAction)say:(id)sender
 {
     EIGSayer *sayer = [[EIGSayer alloc] init];
-    [sayer say:[sayTextArea stringValue]];
+    [sayer say:[sayTextView string]];
 }
 
 - (IBAction)sayInReverse:(id)sender
@@ -30,7 +30,7 @@
     EIGSayer *sayer = [[EIGSayer alloc] init];
     EIGStringReverser *stringReverser = [[EIGStringReverser alloc] init];
 
-    [sayer say:[stringReverser reverse:[sayTextArea stringValue]]];
+    [sayer say:[stringReverser reverse:[sayTextView string]]];
 
 }
 

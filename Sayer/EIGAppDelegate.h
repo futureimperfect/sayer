@@ -12,8 +12,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-// Text fields
-@property (weak) IBOutlet NSTextField *sayTextArea;
+// TextViews
+@property (unsafe_unretained) IBOutlet NSTextView *sayTextView;
 
 // IBActions
 - (IBAction)say:(id)sender;
